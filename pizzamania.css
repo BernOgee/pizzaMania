@@ -1,0 +1,50 @@
+body {
+  font-family: 'Mukta', sans-serif;
+}
+
+/* nav-bar */
+a {
+  color: #fff !important;
+  padding: 0 5%;
+  font-weight: bold;
+}
+
+/* Carousel-img */
+.carousel-item img {
+  width: 100%;
+  height: 90vh;
+}
+
+carousel {
+  margin-top: 0;
+}
+
+.main-para {
+  font-size: 1.5rem;
+  padding: 2%;
+  margin: auto;
+  margin-top: 1rem;
+  line-height: 2;
+}
+
+.card-header img {
+  width: 100%;
+  height: 35vh;
+}
+
+.card-body {
+  height: 25vh;
+}
+
+.mini-para {
+  font-size: 1.2rem;
+}
+
+footer div p {
+  padding-top: 2%;
+  font-size: 1.2rem;
+}
+
+footer div {
+  margin-top: 2rem;
+}

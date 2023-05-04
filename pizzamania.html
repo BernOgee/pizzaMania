@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="shortcut icon" href="favicon_io (1)/favicon.ico" type="image/x-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="pizzamania.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Nav-Bar -->
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#Home"><i class="fa-solid fa-pizza-slice"></i>PIZZAMANIA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Pizza-Type">Pizza Types</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/carousel1.jpg" class="d-block w-100 img-fluid img-thumbnail" alt="pizza-image">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/carousel2.jpg" class="d-block w-100" alt="pizza-image">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/carousel3.jpg" class="d-block w-100" alt="pizza-image">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- About Section -->
+    <div class="row" id="About">
+      <h1 class="text-center">About Pizza</h1>
+      <div class="col-md-6">
+        <img src="Images/main.jpg" alt="pizza-image" class="img-fluid img-thumbnail">
+      </div>
+      <div class="col-md-6">
+        <p class="main-para">Welcome to Pizzamania, where we're crazy about pizza! Our family-owned restaurant has been
+          serving up
+          delicious, homemade pizzas since 1998. It all started with a passion for pizza and a desire to bring something
+          truly special to our community.
+
+          At Pizzamania, we believe that great pizza starts with the best ingredients. That's why we use only the
+          freshest, locally sourced produce and high-quality meats and cheeses. Our pizzas are made from scratch every
+          day, and we never cut corners when it comes to quality.
+
+          Our menu features a wide variety of pizzas, from classic margherita to our signature Meat Lover's pie. We also
+          offer delicious salads, appetizers, and desserts to round out your meal.
+
+          Behind every great pizza is a great team, and our team is the best in the business. Our chefs and cooks have
+          years of experience crafting the perfect pizza, and our friendly staff is always ready to welcome you with a
+          smile.
+
+          Come visit us at our cozy location in the heart of downtown, or order online for delivery or pickup. We're
+          open seven days a week, and we can't wait to share our love of pizza with you. Connect with us on social media
+          to stay up to date on our latest specials and events. Thanks for choosing Pizzamania!</p>
+      </div>
+    </div>
+
+    <!-- Pizza Types -->
+    <div class="row" id="Pizza-Type">
+      <h1 class="text-center">Pizza Types</h1>
+      <div class="col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <img class="img-fluid img-thumbnail" src="Images/type1.jpg" alt="pizza-image">
+          </div>
+          <div class="card-body">
+            <h3 class="text-center">Cheezy Pizza</h3>
+            <p class="text-center mini-para">A pizza topped with a blend of four different cheeses such as mozzarella,
+              provolone,
+              Parmesan, and
+              Romano, for a rich, cheesy flavor.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <img class="img-fluid img-thumbnail" src="Images/type2.jpg" alt="pizza-image">
+          </div>
+          <div class="card-body">
+            <h3 class="text-center">Family Pizza</h3>
+            <p class="text-center mini-para"> A pizza with all the toppings - pepperoni, sausage, onions, green peppers,
+              mushrooms, and black olives -
+              along with a generous amount of mozzarella cheese.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <img class="img-fluid img-thumbnail" src="Images/type3.jpg" alt="pizza-image">
+          </div>
+          <div class="card-body">
+            <h3 class="text-center">Pepperoni Piza</h3>
+            <p class="text-center mini-para">A traditional pizza topped with tomato sauce, mozzarella cheese, and spicy
+              pepperoni
+              slices.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <img class="img-fluid img-thumbnail" src="Images/type4.jpg" alt="pizza-image">
+          </div>
+          <div class="card-body">
+            <h3 class="text-center">Veggie Pizza</h3>
+            <p class="text-center mini-para">A pizza topped with fresh spinach, crumbled feta cheese, garlic, and olive
+              oil.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row bg-danger text-bg-primary text-center">
+        <p>&#169;2023 My Company. All rights reserverd</p>
+      </div>
+    </footer>
+
+  </div>
+  <script src="bootstrap-5.3.0-alpha1-dist/js/jquery-3.6.4.min.js"></script>
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
